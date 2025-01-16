@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "${group}",
+        "id": "betr_table",
+        "version": "${version}",
+        "metadata": {
+            "name": "Better Enchant Table",
+            "description": "Improves the enchantment table to be more balanced compared to villagers",
+            "contributors": {
+                "Beez131": "Owner"
+            },
+            "contact": {},
+            "icon": "assets/example_mod/icon.png",
+            "license": "PolyForm-Shield-1.0.0"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "entrypoints": {
+            "init": "io.github.beez131github.betr_table.BetrTable"
+        },
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.19.1"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=7.0.2"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.20"
+            }
+        ]
+    },
+    "mixin": "betr_table.mixins.json"
+}
