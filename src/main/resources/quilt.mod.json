@@ -11,7 +11,7 @@
                 "Beez131": "Owner"
             },
             "contact": {},
-            "icon": "assets/example_mod/icon.png",
+            "icon": "assets/betr_table/icon.png",
             "license": "PolyForm-Shield-1.0.0"
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
