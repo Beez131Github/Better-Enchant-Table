@@ -12,7 +12,7 @@
             },
             "contact": {},
             "icon": "assets/betr_table/icon.png",
-            "license": "PolyForm-Shield-1.0.0"
+            "license": "MIT"
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
