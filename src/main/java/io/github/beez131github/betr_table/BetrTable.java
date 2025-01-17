@@ -1,5 +1,6 @@
 package io.github.beez131github.betr_table;
 
+import net.minecraft.registry.tag.EnchantmentTags;
 import org.quiltmc.loader.api.ModContainer;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
