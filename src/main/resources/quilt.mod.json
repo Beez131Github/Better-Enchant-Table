@@ -16,7 +16,7 @@
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "io.github.beez131github.betr_table.BetrTable"
+            "main": "io.github.beez131github.betr_table.BetrTable"
         },
         "depends": [
             {

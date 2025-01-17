@@ -19,7 +19,9 @@ public class BetrTable implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("Better Enchant Table");
 
 	public void onInitialize() {
+		System.out.println("BetrTable mod initializing!");
 		EnchantmentEvents.ALLOW_ENCHANTING.register(BetrTable::allowEnchanting);
+		System.out.println("BetrTable mod initialized!");
 	}
 
 	private static TriState allowEnchanting(Holder<Enchantment> holder, ItemStack stack, EnchantingContext context) {
