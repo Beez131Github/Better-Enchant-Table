@@ -8,7 +8,8 @@
             "name": "Better Enchant Table",
             "description": "Improves the enchantment table to be more balanced compared to villagers",
             "contributors": {
-                "Beez131": "Owner"
+							"Beez131": "Owner/Developer",
+							"supersaiyansubtlety": "Helper"
             },
             "contact": {},
             "icon": "assets/betr_table/icon.png",
